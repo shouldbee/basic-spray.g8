@@ -29,7 +29,10 @@ $ ./sbt
 Then request against `localhost:8080/hello` via any browser or command like [httpie]:
 
 ```console
-$ http localhost:8080/hello                                                                                                                                                                                                                                          [13:48:37]
+$ http localhost:8080/hello
+```
+
+```http
 HTTP/1.1 200 OK
 Content-Length: 19
 Content-Type: text/plain; charset=UTF-8
