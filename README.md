@@ -10,14 +10,14 @@ This is a minimum [giter8] template for [Spray] and sbt projects.
 * spray
 * akka (spray depends this)
 
-# Installation
+## Installation
 
 ```console
 $ g8 shouldbee/basic-spray
 $ cd <project-name>
 ```
 
-# Start HTTP Server
+## Start HTTP Server
 
 Start Spray HTTP server type `reStart` in sbt console:
 
@@ -39,7 +39,7 @@ Server: spray-can/1.3.1
 Hello org.foo.bar!
 ```
 
-# Stop HTTP Server
+## Stop HTTP Server
 
 To stop HTTP Server type `reStop` in sbt console:
 
